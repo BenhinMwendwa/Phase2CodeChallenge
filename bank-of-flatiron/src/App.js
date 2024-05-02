@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './App.css';
-import TransactionTable from './Component/TransactionTable';
-import TransactionForm from './Component/TransactionForm';
-import Search from './Component/Search';
+import TransactionTable from './TransactionTable';
+import TransactionForm from './TransactionForm';
+import Search from './Search';
 import { transactions as currentTransaction } from './Data'; // Import transactions as an object
 
 //app
